@@ -1,0 +1,7 @@
+<% @recipes.each_with_index do |recipe, index| %>
+<div id="recipe-<%= index %>">
+<h3><%= recipe.name %></h3>
+<p><%= recipe.complexity %></p>
+<p><%= recipe.genre %></p>
+</div>
+<% end %>
